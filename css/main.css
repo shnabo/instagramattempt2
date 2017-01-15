@@ -1,0 +1,61 @@
+/*
+Colors to use:
+dark blue: #06365f
+light blue: #1c5380
+*/
+
+body {background: #fff url("../images/bgtile.png") repeat-x;
+    font-family: helvetica, serif, sans-serif, arial;
+}
+
+.container {
+  margin: 100px auto 0;
+  width: 900px;
+}
+
+.content{
+  float: right;
+}
+.blurb {
+  background: url("../images/frame.png")no-repeat;
+  min-height: 204px;
+  padding: 20px;
+  width: 500px;
+}
+
+.blurb h2 {
+color: #06365F;
+font-size: 25px;
+line-height: 1.4;
+margin-top: 0px;
+margin-left: 15px
+}
+
+.blurb p {
+  margin-left:15px;
+  padding-bottom: 5px;
+  max-width: 90%;
+}
+
+/*.blurb a {
+  display: inline-block;
+  margin top: 20px;
+  margin-right: 40px;
+  text-decoration: none;*/
+}
+.bottomnav {
+  clear: both;
+
+}
+.bottomnav li {
+  text-decoration: none;
+  display: inline;
+  font-size: 16px;
+  width: 100%;
+  color: #1c5380;
+  text-transform: uppercase;
+  margin-left: 25px;
+}
+li:last-child {
+  color: #777777;
+  }
